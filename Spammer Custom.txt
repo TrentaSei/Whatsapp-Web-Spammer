@@ -1,4 +1,4 @@
-var message = prompt("Inserisci il messaggio / Please enter your message", "‎");
+var message = prompt("Inserisci il messaggio / Enter your message", "‎");
 var counter = parseInt(prompt("Quante volte vuoi spammarlo? / How many times do you want to spam it?", 10));
 window.InputEvent = window.Event || window.InputEvent;
 var event = new InputEvent("input", { bubbles: true });
