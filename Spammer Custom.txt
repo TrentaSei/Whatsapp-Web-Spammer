@@ -1,5 +1,5 @@
-var message = prompt("Inserisci il messaggio", "‎");
-var counter = parseInt(prompt("Quante volte vuoi spammarlo ?", 10));
+var message = prompt("Inserisci il messaggio / Please enter your message", "‎");
+var counter = parseInt(prompt("Quante volte vuoi spammarlo? / How many times do you want to spam it?", 10));
 window.InputEvent = window.Event || window.InputEvent;
 var event = new InputEvent("input", { bubbles: true });
 var textbox = document.getElementsByClassName("_13NKt copyable-text selectable-text")[1];
